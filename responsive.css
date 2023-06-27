@@ -1,0 +1,141 @@
+@media only screen and (max-height:842px) {
+    .exclusives {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .logo {
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+
+    .logo {
+        color: whitesmoke;
+        font-size: 2rem;
+        margin-top: -25px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 14% 7% 0;
+        background: #000;
+        text-align: right;
+        max-height: 10%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    .navl {
+        display: block;
+    }
+
+    .navl li {
+        margin: 25px 0;
+    }
+
+    .btn {
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+
+    nav .fa-solid {
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        font-size: 28px;
+    }
+
+    .active::after {
+        position: absolute;
+        left: -64px;
+        transform: translate(0, 50%);
+        bottom: 50%;
+        border-radius: 4px;
+    }
+
+    .hidemenu {
+        max-height: 38%;
+    }
+
+    .header h1 {
+        font-size: 7vw;
+        padding-top: 52%;
+    }
+
+    .search {
+        width: 90%;
+        margin: 30px auto;
+        position: 20px 10px 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .search form {
+        display: block;
+    }
+
+    .search form input {
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-bottom: 6px;
+    }
+
+    .search form button {
+        position: absolute;
+        bottom: -22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25%;
+        height: 12%;
+        border-radius: 14px;
+    }
+
+    .container h2{
+        margin: 50px 0 20px;
+        font-size: 7.5vw;
+    }
+
+    .list-container{
+        margin-top: 130px;
+    }
+
+    .left-c, .right-c, .house-img, .house-info{
+        flex-basis: 100%;
+    }
+
+    .left-c h1{
+        font-size: 25px;
+    }
+    .left-c p{
+        font-size: 18px;
+    }
+
+    .pagination span{
+        width: 35px;
+    }
+
+    .navbarw .logo{
+        color: white;
+    }
+
+    .navbarw .navl li a{
+        color: white;
+    }
+
+    .house-d{
+        margin-top: 28%;
+    }
+
+    .gallery{
+        grid-template-areas: 'first first';
+    }
+}
